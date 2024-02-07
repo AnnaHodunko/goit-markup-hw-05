@@ -668,9 +668,7 @@ img {
     margin-bottom: 16px;
 }
 
-.form-label {
-    margin-bottom: 16px;
-}
+.form-label {}
 
 .form-textarea {
     padding: 8px 16px;
@@ -705,7 +703,12 @@ img {
 
 .visually-hidden {}
 
-.checkbox {}
+.checkbox {
+    color: #8e8f99;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+}
 
 .custom-checkbox {
     display: inline-flex;
