@@ -701,7 +701,8 @@ img {
     letter-spacing: 0.04em;
 }
 
-.visually-hidden {}
+.visually-hidden {
+}
 
 .checkbox {
     color: #8e8f99;
