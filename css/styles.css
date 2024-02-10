@@ -552,20 +552,9 @@ img {
     gap: 24px;
 }
 .message-email {
-    width: 264px;
-    height: 40px;
-    border: 1px solid #ffffff;
-    font-size: 12px;
-    line-height: 2;
-    letter-spacing: 0.04em;
-    padding-left: 16px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    color: #ffffff;
+
 }
-.message-email::placeholder {
-    color: #ffffff;
-}
+
 .input-footer {
     width: 264px;
     height: 40px;
@@ -582,6 +571,8 @@ img {
 .input-footer::placeholder {
     color: #ffffff;
 }
+
+
 .btn-footer {
     min-width: 165px;
     height: 40px;
@@ -601,6 +592,7 @@ img {
 }
 .icon-btn-footer {
     margin-left: 16px;
+    fill: #FFFFFF;
 }
 
 .btn-footer:hover,
@@ -783,7 +775,7 @@ img {
 
 .custom-checkbox {
     display: inline-flex;
-    margin-left: 8px;
+    margin-right: 8px;
     align-items: center;
     justify-content: center;
     fill: transparent;
